@@ -1,0 +1,41 @@
+id,statement,following_information,notes
+AFC-CSO-CRA,Providers MUST complete the required actions in Emergency or Emergency Test designated messages sent by FedRAMP within the timeframe included in the message.,,Timeframes may vary by FedRAMP Certification class.
+AFC-CSO-INB,Providers MUST establish and maintain an email address to receive messages from FedRAMP; this inbox is a FedRAMP Security Inbox (FSI).,,"Unless otherwise notified, FedRAMP will use the listed Security Email on the Marketplace for these notifications.
+If a provider establishes a new inbox in reaction to this guidance that is different from the Security Email then they must follow the AFC-CSO-NOC (Notification of Changes) rules to notify FedRAMP."
+AFC-CSO-RCV,Providers MUST receive and react to email messages from FedRAMP without disruption and without requiring additional actions from FedRAMP.,,"This requirement is intended to prevent cloud service providers from requiring FedRAMP to complete a CAPTCHA, log into a customer portal, or otherwise take service-specific actions that might prevent the security team from receiving the message."
+CCM-OCR-AVL,"Providers MUST supply an Ongoing Certification Report to all necessary parties every 3 months, covering the entire period since the previous summary, in a consistent format that is human readable; this report MUST include high-level summaries of at least the following information:","Changes to FedRAMP Certification Data
+Planned changes to FedRAMP Certification Data during at least the next 3 months
+Accepted vulnerabilities
+Transformative changes
+Updated recommendations or best practices for security, configuration, usage, or similar aspects of the cloud service offering
+A list of all agencies that are directly using the product
+FedRAMP Reportable Incidents or an attestation that no such incidents occurred
+Lessons learned and changes planned or made as a result of FedRAMP Reportable Incidents (if such occurred)",
+CCM-OCR-NRD,Providers MUST supply the target date for their next Ongoing Certification Report with other public FedRAMP Certification Data.,,
+CDS-CSO-PUB,"Providers MUST publicly share up-to-date information about the cloud service offering in both human-readable and JSON formats, including at least the following information that is available and applicable:","Direct link to the FedRAMP Marketplace for the offering
+Service Model
+Deployment Model
+Business Category
+UEI Number
+Sales Contact Information
+Security Contact Information
+Product Website Link
+Link to Product Logo
+Overall Service Description
+Detailed list of specific services and their security categories (see CDS-CSO-SVC (Service List))
+Link to Secure Configuration Guidance
+Overview of documentation supplied by the provider for the cloud service offering
+Link to Trust Center landing page that includes instructions on accessing information in the trust center
+Next Ongoing Certification Report date (see CCM-OCR-NRD (Next Report Date))
+Current FedRAMP Recognized Independent Assessment Service","Generally, this information should be available on a public webpage or publicly shared in a FedRAMP-compatible trust center."
+CDS-CSO-UTC,Providers MUST use a FedRAMP-compatible trust center to store and share FedRAMP Certification Data with all necessary parties.,,Rules for FedRAMP-Compatible Trust Centers are explained in the Certification Data Sharing Rules under the FedRAMP-Compatible Trust Centers section (id: CDS-TRC).
+CDS-UTC-AAD,Providers MUST notify FedRAMP within 5 business days of denying an agency access request for FedRAMP Certification Data.,,
+FRC-CSO-JSN,"Providers MUST supply machine-readable information in JSON documents that are valid against the corresponding JSON schema when a rule contains a FedRAMP JSON schema, UNLESS otherwise specified in the rule.",,FedRAMP JSON schemas are designed to be lightweight and flexible to establish a minimum set of structured information while allowing providers to improve on the format and structure of the information as needed to meet their needs and the needs of their customers.
+FRC-CSO-PKG,,,
+FRC-CSO-POP,Providers MUST NOT seek both FedRAMP Rev5 Program Certification and FedRAMP 20x Program Certification for the same cloud service offering; pick one type.,,"This rule does not prevent a provider from seeking and maintaining a FedRAMP Rev5 Agency Certification and a FedRAMP 20x Program Certification for the same cloud service offering, however, doing so is strongly discouraged due to the increased complexity and risk of confusion for all parties."
+IEC-CSO-EFR,Providers MUST promptly evaluate incidents to determine if they affect confidentiality or integrity of federal customer data or are likely to affect confidentiality or integrity of federal customer data; such incidents are FedRAMP Reportable Incidents and must be reported following the FedRAMP Incident Communications Procedures.,,
+MAS-CSO-IIR,"Providers MUST identify a set of information resources to assess for FedRAMP Certification that includes all information resources that are likely to handle federal customer data or likely to impact the confidentiality, integrity, or availability of federal customer data handled by the cloud service offering; this set of information resources is the cloud service offering.",,"Certain categories of cloud computing products and services are specified as entirely outside the scope of FedRAMP by the Director of the Office of Management and Budget. All such products and services are therefore not included in the cloud service offering for FedRAMP. For more, see https://fedramp.gov/scope.
+Software produced by cloud service providers that is delivered separately for installation on agency systems and not operated in a shared responsibility model (typically including agents, application clients, mobile applications, etc. that are not fully managed by the cloud service provider) is not a cloud computing product or service and is entirely outside the scope of FedRAMP under the FedRAMP Certification Act. All such software is therefore not included in the cloud service offering for FedRAMP. For more, see fedramp.gov/scope.
+All aspects of the cloud service offering are determined and maintained by the cloud service provider in accordance with related FedRAMP Certification rules and documented by the cloud service provider in their FedRAMP Certification Package."
+VDR-CSO-DET,"Providers MUST systematically, persistently, and promptly discover and identify vulnerabilities within their cloud service offering using appropriate techniques such as assessment, scanning, threat intelligence, vulnerability disclosure mechanisms, bug bounties, penetration testing, incident response, automated control testing, supply chain monitoring, and other relevant capabilities; this process is called vulnerability detection. Vulnerability detection includes persistently verifying and validating that information resources and processes are operating as intended and documented for controls, Key Security Indicators, and FedRAMP Rules.",,"FedRAMP's vulnerability detection (and response) rules are intended to set modern expectations for maintaining the security of a cloud service. Historical FedRAMP guidance on vulnerability scanning or continuous monitoring generally focused only on CVE-type vulnerabilities while leaving other types of vulnerabilities and exposures unaddressed.
+Providers are encouraged to leverage their existing holistic security review, architecture review, and similar processes to meet these requirements. FedRAMP strongly discourages providers from implementing separate vulnerability detection and response processes for FedRAMP reporting that are operated by independent compliance branches unless these processes are consuming data directly from the areas of the cloud service that actively maintain it."

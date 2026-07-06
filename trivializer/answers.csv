@@ -1,0 +1,44 @@
+topic,score,clue,response
+Textbook Definitions,100,"A specific, packaged cloud computing product or service supplied by a cloud service provider for use by customers, that is the subject of a FedRAMP Certification.",What is a Cloud Service Offering?
+Textbook Definitions,100,The cloud service provider responsible for a cloud service offering in the context of FedRAMP Certification.,What is a Provider?
+Textbook Definitions,200,"An entity that helps a provider understand, prepare for, or maintain FedRAMP Certification without replacing the provider's responsibility or the assessor's independence.",What is an Advisor?
+Textbook Definitions,200,The status of a cloud service offering that has received FedRAMP Certification and meets the legal requirement to be FedRAMP authorized.,What is FedRAMP Certified?
+Textbook Definitions,300,"A vulnerability that the provider does not intend to fully mitigate or remediate, OR that has not been fully remediated within the maximum overdue period in FedRAMP Vulnerability Detection and Response rules.",What is an Accepted Vulnerability?
+Textbook Definitions,300,"The category of assurance a cloud service offering supplies to federal customers, increasing from minimal assurance at Class A to significant assurance at Class D.",What is a Certification Class?
+Textbook Definitions,400,"The combination of a FedRAMP Certification Type (Rev5 or 20x), Path (Program or Agency), and Class (A, B, C, or D) for a cloud service offering.",What is a Certification Profile?
+Textbook Definitions,400,A vulnerability that is not fully mitigated AND is reachable by a likely threat actor.,What is a Likely Exploitable Vulnerability (LEV)?
+Textbook Definitions,500,"Verifiable data collected directly from an authoritative source that represents a factual and reproducible observation of a system's state, configuration, or behavior.",What is Deterministic Telemetry?
+Textbook Definitions,500,"Changes to information resources that cause deviations from the intended and assessed state — commonly in configurations, deployed software, privileges, running processes, and availability.",What is Drift?
+KSI Miami,100,This KSI requires that modifications to the cloud service offering are logged and monitored. (KSI-CMT-LMC),"What is ""Logging Changes""?"
+KSI Miami,100,"This KSI family abbreviation, used in identifiers like KSI-IAM-AAM, covers identity and access management.",What is IAM?
+KSI Miami,200,This KSI requires that changes to machine-based information resources are executed by redeploying version-controlled resources rather than direct modification wherever reasonable. (KSI-CMT-RMV),"What is ""Redeploying vs Modifying""?"
+KSI Miami,200,This KSI calls for the effectiveness of documented change management procedures to be persistently reviewed. (KSI-CMT-RVP),"What is ""Reviewing Change Procedures""?"
+KSI Miami,300,"This KSI requires the effectiveness of cybersecurity education and training to be persistently reviewed, including general, role-specific, and high-risk-role training. (KSI-CED-RAT)","What is ""Reviewing All Training""?"
+KSI Miami,300,"This three-letter KSI family abbreviation covers monitoring, logging, and auditing.",What is MLA?
+KSI Miami,400,"This three-letter KSI family abbreviation covers supply chain risk management, as in KSI-SCR-MSC.",What is SCR?
+KSI Miami,400,"This three-letter KSI family abbreviation covers recovery planning, as in KSI-RPL identifiers about backups and objectives.",What is RPL?
+KSI Miami,500,"Key Security Indicators are written as concise, declarative outcome statements; each KSI also lists these mappings to the older Rev5 baseline.",What are Related SP 800-53 Controls?
+KSI Miami,500,"This three-letter KSI family abbreviation, seen in KSI-PIY identifiers, concerns inventories and the policy/inventory domain.",What is PIY (Policy & Inventory)?
+The Sacred Texts,100,"These rules require providers to continuously identify, analyze, prioritize, and respond to weaknesses in their offering.",What is Vulnerability Detection and Response?
+The Sacred Texts,200,"These rules help agencies use shared, current authorization information to monitor a cloud offering together rather than in isolation.",What is Collaborative Continuous Monitoring?
+The Sacred Texts,200,"These rules outline the expectations for a simple, plain-language overview of a provider's certification.",What is the Certification Package Overview?
+The Sacred Texts,300,These rules (formerly the FedRAMP Security Inbox rules) govern how FedRAMP and providers exchange messages and how urgency is conveyed.,What is Addressing FedRAMP Communication?
+The Sacred Texts,300,These rules clarify how providers should select and use cryptographic modules in a FedRAMP context.,What is Cryptographic Module Use?
+The Sacred Texts,400,"These rules summarize the demands the FedRAMP Authorization Act and OMB M-24-15 place on agencies into a simple, FedRAMP-style rule set.",What is Agency Use of FedRAMP Certified Cloud Services?
+The Sacred Texts,400,These rules let providers store and share their FedRAMP Certification data with agencies and FedRAMP.,What is Certification Data Sharing?
+The Sacred Texts,500,"These rules govern how an offering reports and communicates an incident, supporting initial, ongoing, and final report variants.",What is Incident Evaluation and Communication?
+The Sacred Texts,500,These rules define the conditions and process for notifying FedRAMP when an offering undergoes a material change.,What is Significant Change Notification?
+Welcome to Whoville,100,Federal agencies must ensure any cloud service they use within FedRAMP's scope has a FedRAMP Certification; these stakeholders are the government customers.,What are Agencies?
+Welcome to Whoville,200,"This stakeholder performs assessment, verification, or validation activities for an offering seeking to obtain or maintain FedRAMP Certification.",What is an Assessor?
+Welcome to Whoville,200,This stakeholder helps a provider navigate the federal marketplace and prepare for FedRAMP without replacing the provider's responsibility or the assessor's independence.,What is an Advisor?
+Welcome to Whoville,300,Independent assessment services that hold this status are authorized by FedRAMP to perform assessment activities on its behalf.,What is FedRAMP Recognized?
+Welcome to Whoville,400,These federal entities have interests directly affected (or likely to be) by a vulnerability or incident involving federal customer data; this always includes FedRAMP and impacted agency customers.,What are All Affected Parties?
+Welcome to Whoville,400,This stakeholder is the cloud service provider responsible for a cloud service offering in the context of FedRAMP Certification.,What is a Provider?
+Welcome to Whoville,500,"This entity, established in law at the end of 2022 with government-wide guidance in 2024, operates the program and issues certifications.",What is FedRAMP (the program)?
+Welcome to Whoville,500,All entities who participate in the FedRAMP assessment of a cloud service offering in the context of a FedRAMP Certification are referred to collectively by this defined term.,What are All Necessary Assessors?
+I am the law,100,FedRAMP was established in law to provide a standardized approach to the assessment and authorization of these products and services that process unclassified federal information.,What is cloud computing (cloud services)?
+I am the law,200,"This OMB Memorandum is quoted directly to define FedRAMP's scope as cloud products and services (IaaS, PaaS, SaaS) that handle federal information.",What is OMB Memorandum M-24-15?
+I am the law,300,"FedRAMP does not apply to every internet-based service an agency uses; a single cloud service may even be partly within and partly outside scope, judged by these.",What are Agency Use Case Indicators?
+I am the law,300,"Certain categories of cloud products and services are specified as this relative to FedRAMP, subject to exceptions made by the FedRAMP Director.",What is Outside the Scope of FedRAMP?
+I am the law,400,This 2022 law formally established the modern FedRAMP program and mandated a government-wide overhaul.,What is the FedRAMP Authorization Act?
+I am the law,500,"The FedRAMP Definitions cite this title of the U.S. Code repeatedly for terms like ""agency,"" ""machine-readable,"" and ""information resource.""",What is 44 U.S. Code?
