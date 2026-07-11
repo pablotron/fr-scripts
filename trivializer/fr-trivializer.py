@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 #
 # fr-trivializer.py: Fetch FedRAMP trivia (fedramp.gov/trivia) questions
@@ -16,7 +16,7 @@
 import csv, re, sys, urllib.request as U
 
 URL = 'https://www.fedramp.gov/' # base URL
-RS = [r'^.+<link href="(([^"]+)/104\.([^"]+))" rel="modulepreload">.+$', r'^.+,qe=(.+?),Ee.+$', r'{name:["\'](.+?)["\'],description:"(.+?)",clues:\[(.+?)\]}', r'{value:(\d{3,4}),clue:["\'](.+?)["\'],response:["\'](.+?)["\']}'] # regexes
+RS = [r'^.+<link href="(([^"]+)/10\d\.([^"]+))" rel="modulepreload">.+$', r'^.+,qe=(.+?),Ee.+$', r'{name:["\'](.+?)["\'],description:"(.+?)",clues:\[(.+?)\]}', r'{value:(\d{3,4}),clue:["\'](.+?)["\'],response:["\'](.+?)["\']}'] # regexes
 FS = re.M | re.S # match flags
 COLS = ['topic', 'score', 'clue', 'response'] # csv columns
 
