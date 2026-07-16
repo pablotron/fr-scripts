@@ -13,10 +13,10 @@
 #   Textbook Definitions,100,The cloud service provider responsible for a cloud service offering in the context of FedRAMP Certification.,What is a Provider?
 #
 
-import csv, re, sys, urllib.request as U
+import csv, json, re, sys, urllib.request as U
 
 URL = 'https://www.fedramp.gov/' # base URL
-RS = [r'^.+<link href="(([^"]+)/10\d\.([^"]+))" rel="modulepreload">.+$', r'^.+,qe=(.+?),Ee.+$', r'{name:["\'](.+?)["\'],description:"(.+?)",clues:\[(.+?)\]}', r'{value:(\d{3,4}),clue:["\'](.+?)["\'],response:["\'](.+?)["\']}'] # regexes
+RS = [r'^.+<link href="(([^"]+)/10\d\.([^"]+.js))" rel="modulepreload">.+$', r'^.+JSON.parse\(`(.+?)`\).+$'] # regexes
 FS = re.M | re.S # match flags
 COLS = ['topic', 'score', 'clue', 'response'] # csv columns
 
@@ -24,6 +24,6 @@ def grab(path: str, pat: str) -> str:
   return re.sub(pat, '\\1', U.urlopen(U.urljoin(URL, path)).read().decode(), flags=FS)
 
 path = grab('/trivia/', RS[0]) # get asset path
-data = grab(path, RS[1]) # get data
-rows = [[x[0], y[0], y[1], y[2]] for x in re.findall(RS[2], data, FS) for y in re.findall(RS[3], x[2], FS)] # extract rows
+data = json.loads(re.sub('\\\\\\\\', '\\\\', grab(path, RS[1]), FS)) # get data
+rows = [[x['name'], y['value'], y['clue'], y['response']] for x in data for y in x['clues']] # extract rows
 csv.writer(sys.stdout).writerows([COLS] + rows) # write csv
