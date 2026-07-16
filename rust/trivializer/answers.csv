@@ -1,0 +1,69 @@
+topic,score,clue,response
+Textbook Definitions,100,"A specific, packaged cloud computing product or service supplied by a cloud service provider for use by customers, that is the subject of a FedRAMP Certification.",What is a Cloud Service Offering?
+Textbook Definitions,100,The entity responsible for a cloud service offering (CSO) in the context of FedRAMP Certification.,What is a Cloud Service Provider (CSP)?
+Textbook Definitions,200,"An entity that helps a provider understand, prepare for, or maintain FedRAMP Certification without replacing the provider's responsibility or the assessor's independence.",What is an Advisor?
+Textbook Definitions,200,The status of a cloud service offering that has received FedRAMP Certification and meets the legal requirement to be FedRAMP authorized.,What is FedRAMP Certified?
+Textbook Definitions,300,"A vulnerability that the provider does not intend to fully mitigate or remediate, OR that has not been fully remediated within the maximum overdue period in FedRAMP Vulnerability Detection and Response rules.",What is an Accepted Vulnerability?
+Textbook Definitions,300,"The category of assurance a cloud service offering supplies to federal customers, increasing from minimal assurance at Class A to significant assurance at Class D.",What is a Certification Class?
+Textbook Definitions,400,"The combination of a FedRAMP Certification Type (Rev5 or 20x), Path (Program or Agency), and Class (A, B, C, or D) for a cloud service offering.",What is a Certification Profile?
+Textbook Definitions,400,A vulnerability that is not fully mitigated AND is reachable by a likely threat actor.,What is a Likely Exploitable Vulnerability (LEV)?
+Textbook Definitions,500,"Verifiable data collected directly from an authoritative source that represents a factual and reproducible observation of a system's state, configuration, or behavior.",What is Deterministic Telemetry?
+Textbook Definitions,500,"Changes to information resources that cause deviations from the intended and assessed state — commonly in configurations, deployed software, privileges, running processes, and availability.",What is Drift?
+KSI Miami,100,This KSI requires that modifications to the cloud service offering are logged and monitored. (KSI-CMT-LMC),"What is ""Logging Changes""?"
+KSI Miami,100,This KSI family abbreviation covers identity and access management.,What is IAM?
+KSI Miami,200,This KSI requires that changes to machine-based information resources are executed by redeploying version-controlled resources rather than direct modification wherever reasonable. (KSI-CMT-RMV),"What is ""Redeploying vs Modifying""?"
+KSI Miami,200,This KSI calls for the effectiveness of documented change management procedures to be persistently reviewed. (KSI-CMT-RVP),"What is ""Reviewing Change Procedures""?"
+KSI Miami,300,"This KSI requires the effectiveness of cybersecurity education and training to be persistently reviewed, including general, role-specific, and high-risk-role training. (KSI-CED-RAT)","What is ""Reviewing All Training""?"
+KSI Miami,300,"This three-letter KSI family abbreviation covers monitoring, logging, and auditing.",What is MLA?
+KSI Miami,400,This three-letter KSI family abbreviation covers supply chain risk management.,What is SCR?
+KSI Miami,400,"This three-letter KSI family abbreviation covers recovery planning as in backups, recovery objectives, and contingency plans.",What is RPL?
+KSI Miami,500,"Key Security Indicators are written as concise, declarative outcome statements; each KSI also lists these mappings to the older Rev5 baseline.",What are Related SP 800-53 Controls?
+KSI Miami,500,This three-letter KSI family abbreviation concerns inventories and the policy/inventory domain.,What is PIY (Policy and Inventory)?
+The Sacred Texts,100,"This ruleset require providers to continuously identify, analyze, prioritize, and respond to weaknesses in their offering.",What is Vulnerability Detection and Response?
+The Sacred Texts,200,"These rules help agencies use shared, current authorization information to monitor a cloud offering together rather than in isolation.",What is Collaborative Continuous Monitoring?
+The Sacred Texts,200,"This ruleset outline the expectations for a simple, plain-language overview of a provider's certification.",What is the Certification Package Overview?
+The Sacred Texts,300,This ruleset govern how FedRAMP and providers exchange messages and how urgency is conveyed.,What is Addressing FedRAMP Communication?
+The Sacred Texts,300,This ruleset clarify how providers should select and use cryptographic modules in a FedRAMP context.,What is Cryptographic Module Use?
+The Sacred Texts,400,"This ruleset summarize the demands the FedRAMP Authorization Act and OMB M-24-15 place on agencies into a simple, FedRAMP-style rule set.",What is Agency Use of FedRAMP Certified Cloud Services?
+The Sacred Texts,400,This ruleset let providers store and share their FedRAMP Certification data with agencies and FedRAMP.,What is Certification Data Sharing?
+The Sacred Texts,500,"This ruleset govern how an offering reports and communicates an incident, supporting initial, ongoing, and final report variants.",What is Incident Evaluation and Communication?
+The Sacred Texts,500,This ruleset define the conditions and process for notifying FedRAMP when an offering undergoes a material change.,What is Significant Change Notification?
+Welcome to Whoville,100,Federal agencies must ensure any cloud service they use within FedRAMP's scope has a FedRAMP Certification; these stakeholders are the government customers.,What are Agencies?
+Welcome to Whoville,200,"This stakeholder performs assessment, verification, or validation activities for an offering seeking to obtain or maintain FedRAMP Certification.",What is an Assessor?
+Welcome to Whoville,200,This stakeholder helps a provider navigate the federal marketplace and prepare for FedRAMP without replacing the provider's responsibility or the assessor's independence.,What is an Advisor?
+Welcome to Whoville,300,Independent assessment services that hold this status are authorized by FedRAMP to perform assessment activities on its behalf.,What is FedRAMP Recognized?
+Welcome to Whoville,400,These federal entities have interests directly affected (or likely to be) by a vulnerability or incident involving federal customer data; this always includes FedRAMP and impacted agency customers.,What are All Affected Parties?
+Welcome to Whoville,400,This stakeholder is the cloud service provider responsible for a cloud service offering in the context of FedRAMP Certification.,What is a Provider?
+Welcome to Whoville,500,"This entity, established in law at the end of 2022 with government-wide guidance in 2024, operates the program and issues certifications.",What is FedRAMP (the program)?
+Welcome to Whoville,500,All entities who participate in the FedRAMP assessment of a cloud service offering in the context of a FedRAMP Certification are referred to collectively by this defined term.,What are All Necessary Assessors?
+I am the law,100,FedRAMP was established in law to provide a standardized approach to the assessment and authorization of these products and services that process unclassified federal information.,What is cloud computing (cloud services)?
+I am the law,200,"This OMB Memorandum is quoted directly to define FedRAMP's scope as cloud products and services (IaaS, PaaS, SaaS) that handle federal information.",What is OMB Memorandum M-24-15?
+I am the law,300,"FedRAMP does not apply to every internet-based service an agency uses; a single cloud service may even be partly within and partly outside scope, judged by these.",What are Agency Use Case Indicators?
+I am the law,300,"Certain categories of cloud products and services are specified as this relative to FedRAMP, subject to exceptions made by the FedRAMP Director.",What is Outside the Scope of FedRAMP?
+I am the law,400,This 2022 law formally established the modern FedRAMP program and mandated a government-wide overhaul.,What is the FedRAMP Authorization Act?
+I am the law,500,"The FedRAMP Definitions cite this title of the U.S. Code repeatedly for terms like ""agency,"" ""machine-readable,"" and ""information resource.""",What is 44 U.S. Code?
+Future info@,100,This is the only Rev5 Class D path.,What is Agency Sponsorship?
+Future info@,200,An advisory service or independent assessor cannot do this on behalf of their client.,What is apply for a FedRAMP Certification? (See FRC-APP-NTP)
+Future info@,300,"True or false: I am not planning on selling to an agency, can I still get a FedRAMP Certification?",What is True? If you fall under the indirect use category where you will be a third-party information resource for other cloud providers.
+Future info@,400,A Trust Center doesn't need to be FedRAMP Certified if it is not storing this information.,"What is federal information? Trust Center info is the CSP's data, not the government's."
+Future info@,500,This is issued if an existing service does not adopt the VDR / VER by the mandatory date.,"What is a corrective action plan (CAP)? Cloud service providers are allowed a grace period until March 7, 2027. After that, they will be removed from the Marketplace."
+Important Dates,100,This date is when a provider can submit for Class A.,"What is August 3rd, 2026?"
+Important Dates,200,This time period is when a provider can submit for a 20x Class D.,What is 20x Phase 4? Currently scheduled for FY27 Q1 - FY27 Q2.
+Important Dates,300,This date is when FedRAMP no longer accept applications for new Rev5 Certifications.,"What is June 11, 2027?"
+Important Dates,400,This date is when CR26 rules are required to be implemented by existing cloud service providers.,"What is January 1st, 2027?"
+Important Dates,500,CR26 rules apply until this date.,"What is December 31, 2028?"
+"Other Frameworks, True/False",100,"I can convert my FedRAMP Ready / RAR to Rev5 Class B or C, or 20x Class A.","What is True? However, conversion is not automatic and requires meeting specific requirements for those certifications."
+"Other Frameworks, True/False",200,I can use a FedRAMP Moderate Equivalency Audit for a Class C.,"What is False? Only a SOC 2 Type II, GovRAMP, or FedRAMP Rev5 are approved alternative security frameworks."
+"Other Frameworks, True/False",300,I can use an ISO 27001 for FedRAMP.,"What is False? Only a SOC 2 Type II, GovRAMP, or FedRAMP Rev5 are approved alternative security frameworks for Class A."
+"Other Frameworks, True/False",400,A Class A certification package is required to be independently verified and validated by an accessor before submission.,What is False? They may be validated but it is not required.
+"Other Frameworks, True/False",500,FedRAMP Certification has equivalency to CMMC for DOW.,"What is False? The concept of ""equivalency"" is defined under DFARS 252.204-7012. CMMC and FedRAMP requirements are not bidirectional. FedRAMP does not substitute for CMMC. CMMC does not subsitute for FedRAMP Certifications of a specific cloud service offering."
+The Package,100,Providers must have this prerequisite before submitting package materials.,What is a FedRAMP Marketplace listing?
+The Package,200,This template is used to document POA&Ms for VDR.,What is None? There is no POA&M with VDR.
+The Package,300,This replaces the System Security Plan & Appendices for all certification types.,What are the Certification Package Overview and Security Decision Record (SDR)?
+The Package,400,This effectively replaces the SAP and SAR in all certification types.,What are the Certification Package Overview and Security Decision Record (SDR)?
+The Package,500,This data is not certification data.,"What is federal customer data? Certification data is produced by the CSP for its own purposes (including legacy vulnerability scans, POA&Ms, etc.), and is all owned by the CSP."
+The Agency,100,Who sponsors a Class A certification?,"What is Program? Class A is 20x only, but can be used for a higher Rev5 or 20x certification."
+The Agency,200,This is how you access a 20x package.,What is talk to the CSP for access instructions and approval?
+The Agency,300,"For a limited time, FedRAMP will do this if a CSP lost their agency sponsor.",What is grant Class B or C certification? Only if the CSP was listed on the Marketplace but was removed or completed a full assessment with SAP/SAR between January 2025 and March 2026.
+The Agency,400,A Class A Certification is sufficient for use in this deployment environment at an agency.,What is Production? It's up to the agency to accept the risk!
+The Agency,500,These organizations monitor agencies and their compliance with the law and policy.,"What are the Office of Management and Budget (OMB), Inspector Generals, and the Government Accountability Office (GAO)? Not FedRAMP!"
